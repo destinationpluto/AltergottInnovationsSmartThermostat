@@ -1,0 +1,39 @@
+{
+    "name": "simpleDSTadjust", 
+    "version": "1.2.0", 
+    "keywords": [
+        "timing"
+    ], 
+    "description": "Automatic Daylight Saving Time adjust functionality for Arduino/ESP8266", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "platforms": [
+        "espressif8266"
+    ], 
+    "authors": [
+        {
+            "email": null, 
+            "url": null, 
+            "maintainer": true, 
+            "name": "neptune2"
+        }
+    ], 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/neptune2/simpleDSTadjust"
+    }, 
+    "homepage": null, 
+    "export": {
+        "include": null, 
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ]
+    }, 
+    "id": 1276
+}

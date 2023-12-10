@@ -1,0 +1,44 @@
+{
+    "name": "RunningMedian", 
+    "repository": {
+        "url": "https://github.com/RobTillaart/Arduino.git", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif32", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "nordicnrf52", 
+        "ststm32", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "0.1.15", 
+    "export": {
+        "include": "libraries/RunningMedian"
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Rob Tillaart", 
+            "url": null, 
+            "email": "Rob.Tillaart@gmail.com"
+        }
+    ], 
+    "keywords": [
+        "median", 
+        "running", 
+        "outliers", 
+        "moving", 
+        "average"
+    ], 
+    "id": 1361, 
+    "description": "The library stores the last N individual values in a buffer to select the median. It filters outliers."
+}

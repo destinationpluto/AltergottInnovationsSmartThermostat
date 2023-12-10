@@ -1,0 +1,1 @@
+esptool.py --before default_reset --after hard_reset --chip esp8266 --port "COM3" --baud 115200 write_flash 0x0 .pio/build/Thermostat/firmware.bin
